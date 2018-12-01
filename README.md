@@ -4,6 +4,6 @@ Technology used: HTML/CSS/JavaScript/jQuery
 
 Link to live app: 
 
-Screenshot: ![Alt text](relative/path/to/img.jpg?raw=true "Title")
+Screenshot: ![Alt text](relative/path/to/greenspaces_screenshot.png?raw=true "screenshot")
 
 
