@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Oregon Parks</title>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css?family=Lora|Nanum+Gothic" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <main role="main">
+        <section role="section" class="sidebar">
+          <h1>greenspaces</h1>
+          <h2>Explore Oregon State Parks</h2>
+          <div class="js-search-error error"></div>
+          <form role="form" action="#" class="js-search-form">
+            <input role="searchbox" type="text" class="js-query" placeholder="Search by park amenity, try 'hiking'" required>
+            <button role="button" type="submit">Search</button>
+          </form>
+        </section>
+        <section role="section" id="map"></section>
+      </main>
+      <script src="index.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1MY3QVNEJeJkv6SIyAUCfDaL5f134FXg&callback=initMap" async defer></script>
+    </body>
+</html>
